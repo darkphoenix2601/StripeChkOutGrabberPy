@@ -60,7 +60,7 @@ def getEmail(raw):
 
 def getAmt(raw):
     try:
-        amt=raw.get("line_item_group", {}).get("line_items", {})[0].get("total", "Not Found")
+        amt=raw.get("line_item_group", {}).get("line_items", [{}])[0].get("total", "Not Found")
         return str(amt)
     except:
         return "Not Found"
