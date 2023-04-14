@@ -38,7 +38,7 @@ def getRawData(pk, cs):
     "content-type": "application/x-www-form-urlencoded",
     "dnt": "1",
     "sec-ch-ua-mobile": "?1",
-    "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
     "sec-ch-ua-platform": "\"Android\"",
     "origin": "https://checkout.stripe.com",
     "sec-fetch-site": "same-site",
