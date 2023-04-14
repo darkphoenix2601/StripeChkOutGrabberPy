@@ -54,11 +54,9 @@ def getRawData(pk, cs):
         return req.json()
     return None
 
-ok=getRawData("pk_live_51Km0kNF7uqYzKRQ39SjLw6OJaIdigSVgAceFTUmtbBxNVqVC16iyeDQcNZCwzI2H4HEcgSDjYkvcInfLfUDP2P8P00s28rE6nG","cs_live_a1QlGP9xvWHvoFN3qmCd5sj1CXFaX7zOdvyqLCVSREc1FSf3sC8fbBmJd7")
-
 def getEmail(raw):
     email=raw.get("customer_email", "Not Found")
-    return email
+    return str(email)
 
 def getAmt(raw):
     try:
